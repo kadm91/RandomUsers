@@ -13,6 +13,7 @@
 		00C84C442B57850C004A61AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00C84C432B57850C004A61AA /* Preview Assets.xcassets */; };
 		00C84C4B2B578971004A61AA /* UserFetchingClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C84C4A2B578971004A61AA /* UserFetchingClient.swift */; };
 		00C84C4D2B578C7E004A61AA /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C84C4C2B578C7E004A61AA /* UserData.swift */; };
+		00C84C4F2B585B99004A61AA /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00C84C4E2B585B99004A61AA /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		00C84C432B57850C004A61AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		00C84C4A2B578971004A61AA /* UserFetchingClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserFetchingClient.swift; sourceTree = "<group>"; };
 		00C84C4C2B578C7E004A61AA /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		00C84C4E2B585B99004A61AA /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			isa = PBXGroup;
 			children = (
 				00C84C3C2B57850B004A61AA /* RandomUsersApp.swift */,
+				00C84C4E2B585B99004A61AA /* User.swift */,
 				00C84C3E2B57850B004A61AA /* UsersView.swift */,
 				00C84C4A2B578971004A61AA /* UserFetchingClient.swift */,
 				00C84C4C2B578C7E004A61AA /* UserData.swift */,
@@ -146,6 +149,7 @@
 				00C84C3F2B57850B004A61AA /* UsersView.swift in Sources */,
 				00C84C3D2B57850B004A61AA /* RandomUsersApp.swift in Sources */,
 				00C84C4D2B578C7E004A61AA /* UserData.swift in Sources */,
+				00C84C4F2B585B99004A61AA /* User.swift in Sources */,
 				00C84C4B2B578971004A61AA /* UserFetchingClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
