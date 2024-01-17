@@ -13,18 +13,9 @@ struct UsersView: View {
     
     var body: some View {
         NavigationStack {
-            VStack (alignment: .leading) {
-                Text("Raw JSON Data:")
-                    .font(.headline)
-                    .bold()
-                    .underline()
-                    .padding(.vertical)
-                
-                ScrollView {
-                    Text(userData.users)
+            List(userData.users){
+                Text($0.fullName)
                 }
-            }
-            .padding()
             .navigationTitle("Random User")
         }
     }
