@@ -11,7 +11,7 @@ import Foundation
 @Observable
 class UserData {
     
-   var users = ""
+    var users = [User]()
     
     
     init()  {
