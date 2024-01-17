@@ -7,8 +7,11 @@
 
 import Foundation
 
+// using the new @Observable Macro we dont have this Problem
+@Observable
 class UserData {
-    var users = ""
+    
+   var users = ""
     
     
     init()  {
