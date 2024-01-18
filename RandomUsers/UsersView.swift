@@ -13,9 +13,19 @@ struct UsersView: View {
     
     var body: some View {
         NavigationStack {
-            List(userData.users){
-                Text($0.fullName)
-                }
+            List(userData.users){ user in
+                Label(
+                    title: { Text(user.fullName)},
+                    icon: {
+                        AsyncImage(url: URL(string: user.picture.thumbnail)) { image in
+                            image.clipShape(Circle())
+                        } placeholder: {
+                            Image(systemName: "person")
+                                .frame(width: 50, height: 50, alignment: .center)
+                        }
+                    }
+                )
+            }
             .navigationTitle("Random User")
         }
     }
